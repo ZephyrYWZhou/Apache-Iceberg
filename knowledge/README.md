@@ -14,3 +14,4 @@ Personal notes for learning the Apache Iceberg Java codebase.
 | File | Purpose |
 |------|---------|
 | [operations-map.md](operations-map.md) | Every Table/Catalog operation mapped to its core implementation class |
+| [metadata-consistency.md](metadata-consistency.md) | How metadata-only changes stay consistent with data (field IDs, projection, partition evolution) |
