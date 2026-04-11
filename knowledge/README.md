@@ -16,3 +16,4 @@ Personal notes for learning the Apache Iceberg Java codebase.
 | [core-concepts.md](core-concepts.md) | Partition specs, partitions, manifests, manifest lists, snapshots — with examples |
 | [operations-map.md](operations-map.md) | Every Table/Catalog operation mapped to its core implementation class |
 | [metadata-consistency.md](metadata-consistency.md) | How metadata-only changes stay consistent with data (field IDs, projection, partition evolution) |
+| [cloud-modules.md](cloud-modules.md) | Cloud provider modules — what they provide (FileIO, Catalog, KMS), how they're loaded, per-module summary |
