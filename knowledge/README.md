@@ -17,3 +17,4 @@ Personal notes for learning the Apache Iceberg Java codebase.
 | [operations-map.md](operations-map.md) | Every Table/Catalog operation mapped to its core implementation class |
 | [metadata-consistency.md](metadata-consistency.md) | How metadata-only changes stay consistent with data (field IDs, projection, partition evolution) |
 | [cloud-modules.md](cloud-modules.md) | Cloud provider modules — what they provide (FileIO, Catalog, KMS), how they're loaded, per-module summary |
+| [engine-integrations.md](engine-integrations.md) | Compute engines, streaming vs batch, per-module summaries (Spark, Flink, Kafka Connect, etc.) |
